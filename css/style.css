@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f4f5f6;
+    color: #1a1a1c;
+    display: flex;
+    flex-direction: column;
+}
+#wrapper {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+header, main, footer {
+    width: 1040px ;
+    margin: 0 auto;
+}
+
+header {
+    height: 120px;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1a1a1c;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+}
+
+.pink {
+    color: #0044ff;
+}
+
+#mainnav {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Playfair Display SC", serif;
+}
+
+#mainnav ul {
+    list-style: none;
+    margin-left: 90px;
+    padding-left: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1a1a1c;
+    font-weight: inherit;
+    line-height: 100px;
+    font-size: 20px;
+    float: left;
+}
+
+#mainnav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#mainnav a {
+    text-decoration: none;
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
+    color: #0044ff;
+}
+#mainnav .siilki ul li a {
+    color: #1a1a1c;
+}
+
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; 
+}
+
+.services {
+    margin: 35px 0;
+    border: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services_item {
+    width: 300px;
+    background-color: transparent;
+}
+.services_img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.new::after {
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: #0044ff;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+    color: #ffffff;
+}
+.ssilka {
+    color: #0044ff;
+    text-decoration: none;
+}
+.h1--invinsible {
+    visibility: hidden;
+}
+
+.footer__block {
+    display: inline-block;
+    width: 335px;
+    font-size: larger;
+}
+
+.footer__icons {
+    text-align: right;
+}
+
+.footer__img {
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     object-fit: cover;
+     border-radius: 8px !important;
+     background-color: #0044ff;
+}
+
+.main_img-float {
+    width: 550px;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+    border: none;
+}
+
+.kontaakt {
+    font-size: large;
+    color: #0044ff;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.pis a {
+    margin-top: 5px;
+    text-decoration: underline;
+    color: #1a1a1c;
+}
+
+.komp {
+    text-align: center;
+}
+
+.kontakti {
+    text-align: center;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+.kartinaa {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.main__text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+mark {
+    background-color:#630ad1 ;
+}
+
+img {
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset;
+}
+
+.ananas {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 110px; 
+}
+
+.ananas h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.ananas h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.nazvan {
+    color: #0044ff;
+}
+
+.biznesi, .cifri {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.biznesi p, .cifri p {
+    margin-top: 8px;
+}
+
+.komanda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.kto {
+    text-align: center;
+    font-size: large;
+}
+
+.tablica {
+    width: 1040px;
+    margin: 0 auto 40px;
+    padding: 20px;
+}
+
+.price {
+    width: 100%;
+    border-top: 5px solid #0044ff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #1a1a1c;
+}
+.price th, 
+.price td {
+    border-top: 2px solid #f4f5f6;
+    border-bottom: 2px solid #f4f5f6;
+    border-left: none;
+    border-right: none;
+    padding: 15px 20px;
+    vertical-align: middle;
+}
+
+.price th:first-child,
+.price td:first-child {
+    border-left: none;
+}
+
+.price th:last-child,
+.price td:last-child {
+    border-right: none;
+}
+
+.price tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.price th {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.price td:first-child,
+.price td:nth-child(2),
+.price td:last-child {
+    text-align: center;
+}
+
+.price td:nth-child(3) {
+    text-align: left;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+.price th:first-child {
+    width: 10%;
+}
+
+.price th:nth-child(2), 
+.price th:last-child {
+    width: 25%;
+}
+
+.price tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+footer {   
+    flex-shrink: 0;
+    width: 1040px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-form {
+  padding: 15px;
+  width: 290px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+#contact-form label {
+  color: #1a1a1c;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="date"],
+#contact-form select,
+#contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #1a1a1c;
+  background-color: #f4f5f6;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #1a1a1c;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form select {
+  height: 32px;
+}
+
+#contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+#contact-form input[type="submit"] {
+  width: 100%;
+  height: 35px;
+  background-color: #0044ff;
+  color: #ffffff;
+  border: 1px solid #0044ff;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #0044ff;
+  border: 1px solid #0044ff;
+}
+
+.neto {
+    margin-top: 165px;
+}

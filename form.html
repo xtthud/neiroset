@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Спириденко Данил П-13</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a href="index.html" id="logo"><span class="pink">SYNTHESIS</span></a>
+            <nav id="mainnav">
+                <div class="siilki">
+                    <ul>
+                        <li><a href="uslugi.html">Услуги</a></li>
+                        <li><a href="anas.html">О нас</a></li>
+                        <li><a href="klienti.html">Клиенты</a></li>
+                        <li><a href="kontakti.html">Контакты</a></li>
+                        <li><a href="form.html">Написать нам</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+<form action="" id="contact-form"> 
+    <div class="form_item"> 
+        <label for="topic">Тема</label><br> 
+        <select name="topic" id="topic" required> 
+            <option value="">Выберите тему...</option>
+            <option value="1">Заказать услугу</option> 
+            <option value="2">Оставить отзыв/замечание</option> 
+            <option value="3">Предложить сотрудничество</option> 
+            <option value="4">Другое</option> 
+        </select> 
+    </div>
+    <div class="form_item"> 
+        <label for="name">Имя</label><br> 
+        <input name="name" id="name" type="text" placeholder="Ваше имя" required> 
+    </div> 
+    <div class="form_item"> 
+        <label for="email">E-mail</label><br> 
+        <input name="email" id="email" type="email" placeholder="Ваш E-mail" required> 
+    </div>
+    <div class="form_item"> 
+        <label for="tel">Телефон</label><br> 
+        <input name="tel" id="tel" type="tel" placeholder="+7 (999) 999-99-99" required> 
+    </div>
+    <div class="form_item"> 
+        <label for="date">Желаемая дата контакта</label><br> 
+        <input name="date" id="date" type="date" required> 
+    </div> 
+    <div class="form_item"> 
+        <label for="message">Текст сообщения</label><br> 
+        <textarea name="message" id="message" rows="5" placeholder="Ваше сообщение..." required></textarea> 
+    </div>
+    <div class="form_item"> 
+        <input type="submit" value="Отправить"> 
+    </div> 
+</form>
+    </main>
+    <footer class="neto">
+        <p class="footer__block">▲Написать нам</p>
+        <p class="footer__block">&copy; Новая компания</p>
+        <div class="footer__icons">
+            <img src="img/ok.png" class="footer__img" alt="">
+            <img src="img/vk.png" class="footer__img" alt="">
+            <img src="img/mailru.png" class="footer__img" alt="">
+        </div>
+    </footer>
+</body>
+</html>
